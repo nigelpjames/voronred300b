@@ -58,6 +58,7 @@ grab_version(){
 
 push_config(){
   cd $config_folder
+  cp ~/.moonraker_database/data.mdb .moonraker_database_backup
   echo Pushing updates
   git pull -v "https://nigelpjames:$mygittoken@github.com/nigelpjames/voronred300b.git"
   git add . -v
