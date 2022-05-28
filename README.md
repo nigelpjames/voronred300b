@@ -33,6 +33,7 @@ Backups for Voron 2.4 300mm build based on Fysetc Spider 1.1 MCU.
   ```
   M109 S0 ; Dont insert bed temp gcode
   M190 S0 ; Dont insert extruder temp gcode
+  PRESSURE_ADVANCE_SELECT NOZZLE=[nozzle_diameter] FILAMENT=[filament_type]
   print_start EXTRUDER=[first_layer_temperature[initial_tool]] BED=[first_layer_bed_temperature] FILAMENT=[filament_type]
   ``` 
 
