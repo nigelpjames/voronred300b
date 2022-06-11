@@ -40,6 +40,8 @@ Backups for Voron 2.4 300mm build based on Fysetc Spider 1.1 MCU.
 ## Change Log
 
 
+* Fixed issue with mymakeklipper.sh mcu config overrides for compiling and installing raspberry pi and Spider MCU's 
+* Added myrestoregit.sh script to restore klipper_config repository and moonraker database from GIT backup
 * Rebuild and install klipper, fluid on clean buster 32bit image (bullseye still has rPi camera issues with new cameralib setup)
 * Klipper build/make script and configurations for updating and flashing RP [Input Shaper] and Spider MCU's (scripts/mymakeklipper.sh)
 * New macro and helper script to process input shaper data files and generate X & Y graphs to klippy_config directory for review and download (INPUT_SHAPER & scripts/myinputshaper.sh)
