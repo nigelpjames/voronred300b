@@ -18,7 +18,7 @@ echo "Updating Klipper on RP MCU [Input Shaper]"
 
 echo Using make override [${rp_mcu}]
 make clean KCONFIG_CONFIG=${rp_mcu}
-#make menuconfig KCONFIG_CONFIG=${rp_mcu}
+make menuconfig KCONFIG_CONFIG=${rp_mcu}
 make KCONFIG_CONFIG=${rp_mcu}
 read -p "Review errors and press [Enter] to continue flashing or Ctrl-C to abort"
 make flash KCONFIG_CONFIG=${rp_mcu}
@@ -29,7 +29,7 @@ echo "Updating Klipper on Spider MCU"
 
 echo Using make override [${spider_mcu}] to flash ${usb_mcu}
 make clean KCONFIG_CONFIG=${spider_mcu}
-#make menuconfig KCONFIG_CONFIG=${spider_mcu}
+make menuconfig KCONFIG_CONFIG=${spider_mcu}
 make KCONFIG_CONFIG=${spider_mcu}
 read -p "Review errors and press [Enter] to continue flashing or Ctrl-C to abort"
 make flash KCONFIG_CONFIG=${spider_mcu} FLASH_DEVICE=${usb_mcu} 
