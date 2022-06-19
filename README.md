@@ -10,10 +10,11 @@ Backups for Voron 2.4 300mm build based on Fysetc Spider 1.1 MCU.
 
 |PIN|Component
 |-|-
-|FAN0|     Hotend
-|FAN1|     Part Fan
-|FAN2|     Compartment Fan
-|E1 Out|   Chamber Fan
+|FAN0|     Hotend (PB0)
+|FAN1|     Part Fan (PB1)
+|FAN2|     Compartment Fan (PB2)
+|E1 Out|   Chamber Fan (PC8)
+|E2 Out|   Chamber LEDs (PB3)
 |PA1|      Endstop - X
 |PA2|      Endstop - Y
 |PA3|      Klicky / Probe
@@ -40,6 +41,7 @@ Backups for Voron 2.4 300mm build based on Fysetc Spider 1.1 MCU.
 ## Change Log
 
 
+* Added FCOB 24v 480 LED's/metre PWM chamber LEDs (10W per metre)
 * Fixed issue with mymakeklipper.sh mcu config overrides for compiling and installing raspberry pi and Spider MCU's 
 * Added myrestoregit.sh helper script to automste restoration of klipper_config repository and moonraker database from GIT backup
 * Rebuild and install klipper, fluid on clean buster 32bit image (bullseye still has rPi camera issues with new cameralib setup)
