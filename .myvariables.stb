@@ -1,2 +1,10 @@
 [Variables]
+ercf_calib_0 = 1.0
+ercf_calib_1 = 1.00197096939
+ercf_calib_2 = 1.00197096939
+ercf_calib_3 = 1.0009326575
+ercf_calib_4 = 1.00405406911
+ercf_calib_5 = 1.00824636168
+ercf_calib_ref = 859.3539575
 pressure_advance = [{'id': u'ABS', 'val': [{'nozzle': 0.6, 'pa': 0.015, 'st': 0.015}, {'nozzle': 0.4, 'pa': 0.038, 'st': 0.015}]}]
+
