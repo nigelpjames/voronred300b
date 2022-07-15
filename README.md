@@ -18,7 +18,7 @@ Backups for Voron 2.4 300mm build based on Fysetc Spider 1.1 MCU.
 |PA1|      Endstop - X
 |PA2|      Endstop - Y
 |PA3|      Klicky / Probe
-|PB14|     ERCF Filament Runout Sensor
+|PB14|     ERCF Tool Head Sensor
 |PB13|     N/C
 |PA0|      Endstop - Z
 |PC0|      Extruder Thermistor
