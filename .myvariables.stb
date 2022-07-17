@@ -6,5 +6,5 @@ ercf_calib_3 = 1.00104791921
 ercf_calib_4 = 1.00104791921
 ercf_calib_5 = 1.00104791921
 ercf_calib_ref = 1116.4199025
-pressure_advance = [{'id': u'ABS', 'val': [{'nozzle': 0.6, 'pa': 0.015, 'st': 0.015}, {'nozzle': 0.4, 'pa': 0.038, 'st': 0.015}]}]
+pressure_advance = [{'id': u'ABS', 'val': [{'nozzle': 0.4, 'pa': 0.038, 'st': 0.015}, {'nozzle': 0.6, 'pa': 0.025, 'st': 0.015}]}]
 
