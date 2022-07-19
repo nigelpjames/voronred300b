@@ -41,6 +41,7 @@ Backups for Voron 2.4 300mm build based on Fysetc Spider 1.1 MCU.
 ## Change Log
 
 
+* Added ERCF support and updated PRINT_START/END/PAUSE/CANCEL macros to suit. Also implemented ERCF=0|1 slicer argument to allow control over ERCF without needing to faff with slicer arguments or split PRINT_START between klipper and slicer. When ERCF=1 (enabled) PRINT_START now checks if the default tool is loaded before waiting for the bed to reach temp or QGL/Mesh/auto-Z.      
 * Added FCOB 24v 480 LED's/metre PWM chamber LEDs (10W per metre)
 * Fixed issue with mymakeklipper.sh mcu config overrides for compiling and installing raspberry pi and Spider MCU's 
 * Added myrestoregit.sh helper script to automate restoration of klipper_config repository and moonraker database from GIT backup
